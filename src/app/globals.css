@@ -13,7 +13,7 @@ body {
   background-image: url("/images/1.jpeg");
 
   /* Set a specific height */
-  height: 40vh;
+  height: 80vh;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -23,13 +23,23 @@ body {
 }
 
 .img-2 {
-  background-image: url("/images/2.png");
-  min-height: 40vh;
+  background-image: url("/images/2.webp");
+  min-height: 60vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.img-3 {
+  background-image: url("/images/3.jpeg");
+  min-height: 55vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 .background-wrap {
   bottom: 0;
@@ -148,7 +158,7 @@ body {
   animation: animateBubble 20s linear infinite, sideWays 3s ease-in-out infinite alternate;
 
   left: 35%;
-  top: 40%;
+  top: 50%;
 
   -webkit-transform: scale(0.4);
   -moz-transform: scale(0.4);
@@ -161,7 +171,7 @@ body {
   animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
 
   left: 25%;
-  top: 40%;
+  top: 60%;
 
   -webkit-transform: scale(0.4);
   -moz-transform: scale(0.4);
