@@ -10,10 +10,10 @@ body {
 
 .img-1 {
   /* The image used */
-  background-image: url("/images/1.jpeg");
+  background-image: url("/images/1.avif");
 
   /* Set a specific height */
-  height: 80vh;
+  height: 50vh;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -23,8 +23,8 @@ body {
 }
 
 .img-2 {
-  background-image: url("/images/2.webp");
-  min-height: 60vh;
+  background-image: url("/images/2.avif");
+  min-height: 40vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -32,8 +32,8 @@ body {
 }
 
 .img-3 {
-  background-image: url("/images/3.jpeg");
-  min-height: 55vh;
+  background-image: url("/images/3.avif");
+  height: 85vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
