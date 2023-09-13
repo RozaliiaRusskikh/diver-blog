@@ -13,31 +13,39 @@ body {
   background-image: url("/images/1.jpg");
 
   /* Set a specific height */
-  height: 20vh;
+  height: 300px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: top;
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .img-2 {
   background-image: url("/images/1.jpg");
-  min-height: 50vh;
+  height: 600px;
   background-attachment: fixed;
-  background-position: top;
-  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .img-3 {
   background-image: url("/images/2.avif");
-  height: 60vh;
+  height: 600px;
   background-attachment: fixed;
   background-position: top;
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 1600px) {
+
+  .img-1,
+  .img-2 {
+    background-size: auto;
+  }
 }
 
 
@@ -152,6 +160,7 @@ body {
   -moz-transform: scale(0.4);
   transform: scale(0.4);
 }
+
 .x4 {
   -webkit-animation: animateBubble 20s linear infinite, sideWays 3s ease-in-out infinite alternate;
   -moz-animation: animateBubble 20s linear infinite, sideWays 3s ease-in-out infinite alternate;
