@@ -24,9 +24,9 @@ body {
 
 .img-2 {
   background-image: url("/images/1.jpg");
-  height: 600px;
+  height: 550px;
   background-attachment: fixed;
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
 }

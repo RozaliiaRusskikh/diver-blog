@@ -16,9 +16,9 @@ export default function Home() {
         </Link>
       </header>
       <div className="img-1"></div>
-      <div className="h-44 bg-gradient-to-b from-cyan-300 to-cyan-500 text-xl">My name is Sergei</div>
+      <div className="h-44 bg-gradient-to-b from-cyan-300 to-cyan-500 text-xl">Text goes here...</div>
       <div className="img-2"></div>
-      <div className="h-72 bg-gradient-to-b from-cyan-500 to-cyan-700 text-xl">My name is Sergei</div>
+      <div className="h-72 bg-gradient-to-b from-cyan-500 to-cyan-700 text-xl">And here...</div>
       <div className="img-3"></div>
       <div className="background-wrap">
         <div className="bubble x1"></div>
