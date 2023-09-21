@@ -2,6 +2,7 @@ import "./globals.css";
 import Link from "next/link";
 import Image from "next/image";
 import logo from "../../public/images/logo.png"
+import heroImage from "../../public/images/hero-photo.jpg"
 
 export default function Home() {
   return (
@@ -16,7 +17,9 @@ export default function Home() {
         </Link>
       </header>
       <div className="img-1"></div>
-      <div className="h-44 bg-gradient-to-b from-cyan-300 to-cyan-500 text-xl">Text goes here...</div>
+      <Image className="w-96 absolute" src={heroImage} alt="Sergei" />
+      <div className="h-44 bg-gradient-to-b from-cyan-300 to-cyan-500 text-xl">
+        Text goes here...</div>
       <div className="img-2"></div>
       <div className="h-72 bg-gradient-to-b from-cyan-500 to-cyan-700 text-xl">And here...</div>
       <div className="img-3"></div>

@@ -23,10 +23,10 @@ body {
 }
 
 .img-2 {
-  background-image: url("/images/1.jpg");
+  background-image: url("/images/hero-photo.jpg");
   height: 550px;
   background-attachment: fixed;
-  background-position: bottom;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -42,8 +42,7 @@ body {
 
 @media screen and (min-width: 1600px) {
 
-  .img-1,
-  .img-2 {
+  .img-1 {
     background-size: auto;
   }
 }
